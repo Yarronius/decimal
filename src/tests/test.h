@@ -1,9 +1,9 @@
-#ifndef S21_DECIMAL_TESTS
-#define S21_DECIMAL_TESTS
+#ifndef DECIMAL_TESTS
+#define DECIMAL_TESTS
 
 #include <check.h>
 
-#include "../s21_decimal.h"
+#include "../decimal.h"
 
 Suite* test_add();
 Suite* test_sub();
@@ -28,3 +28,4 @@ Suite* test_truncate();
 Suite* test_negate();
 
 #endif
+
